@@ -68,7 +68,7 @@ class Solar():
     def get_path(self):
         solar_type = self.solar_type
         quality = self.quality
-        pathinSightDATA = os.path.join("/Users/zhangzhiyu/MyProjects/InSight-seismic-data-downloader/DATA/")
+        pathinSightDATA = os.path.join("/home/erbiaoger/MyProjects/InSight_Data_Processing/InSight-seismic-data-downloader/DATA/")
         file_type = {'BB': 'BROADBAND',
                     'LF': 'LOW_FREQUENCY',
                     '2.4': '2.4_HZ',
